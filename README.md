@@ -5,7 +5,9 @@ INSTALLATION STEPS OF BAHMNI
 
 •	Install Git.
 Git: http://git-scm.com/book/en/v2/Getting-Started-Installing-Git
-•	Next install VirtualBox.
+
+
+Next install VirtualBox.
 VirtualBox:https://www.virtualbox.org/wiki/Downloads
 •	Next install Vagrant box.
 Vagrant: https://www.vagrantup.com/downloads.html (Please install newer Vagrant version)
