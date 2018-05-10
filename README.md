@@ -33,23 +33,3 @@ Password: Admin123
 •	Change the directory. 
 •	Cmd: cd /var/www/bahmni_config/openmrs/apps/ and type ls then list of files will be displayed in that  change directory to applications.json and view the modules like registration.json, clinical.json, etc.
 
-
-USE CASE:
-
-•	Collect the data of the patients in a excel sheet(.csv file format) who visit the hospital in the form of Registration No, First Name, Middle Name, Last Name, Gender, Location.
-•	Open Bahmni setup. Login using the credentials 
-	Username: superman.
-	Password: Admin123(default we can change).
-	Location: Registration Desk.
-•	Now in Home page click on admin tab, and again click on upload csv.
-•	Then a page will be displayed click on the patient checkbox and upload the file from local system.
-•	After uploading we can directly search the patient records by using their Registration No. Now this will be connected with appointment scheduling module.
-•	Go to home page click on Appointment scheduling module. We can create the new appointments for the patients, manage the appointments of the patients and also can check the status of the patients whether they have consulted the doctor or not.
-	If patient visits hospital for the first time then create the appointment and provide the doctor who are available.
-	If required doctor is not available then manage the appointment by changing the  provider’s name.
-	We can change the status whether the patient have completed their check up or still not completed. We can generate the graphs to know the status and pending appointments.
-
-•	After completing all the process if we wants to generate the reports click on reports  module and enter the start date, end date and format (in which format to download the reports eg: html, pdf, docx, csv, etc). We can generate daily reports or from certain period to period.
-
-We have other modules like Odoo for billing, OpenElis for laboratory Management, Ward Management and other modules which can be helpful for the staff.
-
